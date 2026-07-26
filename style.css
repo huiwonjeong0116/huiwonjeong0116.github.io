@@ -62,8 +62,6 @@ button { font: inherit; }
 .button-secondary { background: rgba(255,255,255,.75); }
 .button-secondary:hover { color: var(--accent); border-color: var(--accent); }
 .button-text { border-color: transparent; }
-.button-unavailable { color: var(--muted); cursor: not-allowed; opacity: .7; }
-.button-unavailable:hover { transform: none; }
 .scroll-cue { position: absolute; left: 24px; top: calc(100% + 55px); display: flex; gap: 12px; color: var(--muted); font-size: .68rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
 .scroll-cue b { color: var(--accent); animation: bob 1.8s infinite; }
 .hero-bg span { position: absolute; border: 1px solid rgba(29,78,216,.1); border-radius: 50%; }
